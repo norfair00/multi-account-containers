@@ -438,6 +438,14 @@ table {
   --identity-icon: url("/img/usercontext.svg#fence");
 }
 
+[data-identity-icon="debans"] {
+  --identity-icon: url("/img/icons/debans.svg");
+}
+
+[data-identity-icon="debans-community"] {
+  --identity-icon: url("/img/icons/debans-community.svg");
+}
+
 #current-tab [data-identity-icon="default-tab"] {
   background: center center no-repeat url("/img/blank-tab.svg");
   fill: currentColor;
